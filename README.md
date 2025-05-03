@@ -9,9 +9,11 @@
 
 | Part | Quantity | Price | Link | Description | Notes |
 | --- | --- | --- | --- | --- | --- |
-| PCB | | | | | |
+| PCB (OSHPark) | 1 | $44.05 | | | Most expensive option but also looks gorgeous |
+| PCB (JLCPCB) | 1 | $24.82 | | | Mid-range price |
+| PCB (PCBWay) | 1 | $12.80 | | | Most affordable option (kinda suprisingly?) |
 
-Total cost:  
+I also need a `100nf` `1206` capacitor and a `10nf` `0402` capacitor to serve as decoupling caps.
 
 ## Schematics
 
