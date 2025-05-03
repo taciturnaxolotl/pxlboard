@@ -500,18 +500,18 @@
         "via_drill": 0.3
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.05,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
-        "name": "Weaker Power",
+        "name": "Tiny",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 0.175,
+        "via_diameter": 0.4,
+        "via_drill": 0.25
       }
     ],
     "meta": {
@@ -529,12 +529,36 @@
         "pattern": "GND"
       },
       {
-        "netclass": "Weaker Power",
+        "netclass": "Tiny",
         "pattern": "+3.3V"
       },
       {
         "netclass": "Default",
-        "pattern": "*"
+        "pattern": "NEOPIXEL*"
+      },
+      {
+        "netclass": "Tiny",
+        "pattern": "GND tiny"
+      },
+      {
+        "netclass": "Tiny",
+        "pattern": "INT1"
+      },
+      {
+        "netclass": "Tiny",
+        "pattern": "INT2"
+      },
+      {
+        "netclass": "Tiny",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "Tiny",
+        "pattern": "SCL"
+      },
+      {
+        "netclass": "Tiny",
+        "pattern": "TINY"
       }
     ]
   },
