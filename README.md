@@ -30,6 +30,72 @@ Total (with pcbway): ~$24.21
 
 Nothing yet
 
+## Pinout & Wiring Diagram
+
+### XIAO RP2040 Connections
+
+| XIAO Pin | Connected To | Description |
+| --- | --- | --- |
+| D0/GPIO26/A0 | - | Unused |
+| D1/GPIO27/A1 | - | Unused |
+| D2/GPIO28/A2 | - | Unused |
+| D3/GPIO29/A3 | - | Unused |
+| D4/GPIO6/SDA | LIS3DHTR SDA | I2C Data Line |
+| D5/GPIO7/SCL | LIS3DHTR SCL | I2C Clock Line |
+| D6/GPIO0/TX | - | Unused |
+| D7/GPIO1/RX | NEOPIXEL_SIG | LED Data In |
+| D8/GPIO2/SCK | - | Unused |
+| D9/GPIO4/MISO | - | Unused |
+| D10/GPIO3/MOSI | - | Unused |
+| 3V3 | LIS3DHTR VDD_IO | 3.3V Power |
+| GND | LIS3DHTR GND, LEDs GND | Ground |
+| 5V | LEDs VDD | 5V Power |
+
+### LIS3DHTR Accelerometer
+
+| LIS3DHTR Pin | Connected To | Description |
+| --- | --- | --- |
+| VDD | 3.3V | Power Supply |
+| VDD_IO | 3.3V | Interface Power |
+| GND | GND | Ground |
+| SDA | XIAO D4 | I2C Data |
+| SCL | XIAO D5 | I2C Clock |
+| INT1 | - | Interrupt (not used) |
+| INT2 | - | Interrupt (not used) |
+
+### Wiring Diagram
+
+```mermaid
+graph TD
+    XIAO[XIAO RP2040] -- SDA --> LIS3D[LIS3DHTR Accelerometer]
+    XIAO -- SCL --> LIS3D
+    XIAO -- 3.3V --> LIS3D
+    XIAO -- GND --> LIS3D
+
+    XIAO -- 5V --> LEDS[SK6812 LED Grid]
+    XIAO -- GND --> LEDS
+    XIAO -- D7/GPIO1 --> LEDS
+
+    LEDS -- Data chain --> LED1[LED #1]
+    LED1 --> LED2[LED #2]
+    LED2 --> LED3[LED #3]
+    LED3 --> DOT["..."]
+    DOT --> LED64[LED #64]
+
+    classDef mcu fill:#f96,stroke:#333,stroke-width:2px;
+    classDef sensor fill:#bbf,stroke:#33f,stroke-width:1px;
+    classDef led fill:#9f9,stroke:#3a3,stroke-width:1px;
+
+    class XIAO mcu;
+    class LIS3D sensor;
+    class LEDS,LED1,LED2,LED3,LED64 led;
+```
+
+### Capacitor Placement
+
+- 100nF ceramic capacitor between VDD and GND of LIS3DHTR
+- 10nF ceramic capacitors for each SK6812 LED (placed close to power pins)
+
 <p align="center">
 	<img src="https://raw.githubusercontent.com/taciturnaxolotl/carriage/master/.github/images/line-break.svg" />
 </p>
