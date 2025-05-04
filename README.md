@@ -7,18 +7,20 @@
 
 ## BOM
 
-| Part | Quantity | Price | Link | Description | Notes |
-| --- | --- | --- | --- | --- | --- |
-| PCB (OSHPark) | 1 | $44.05 | [OSHPark](https://oshpark.com) | Custom PCB - Purple | Most expensive option but also looks gorgeous |
-| PCB (JLCPCB) | 1 | $24.82 | [JLCPCB](https://jlcpcb.com) | Custom PCB - Green | Mid-range price |
-| PCB (PCBWay) | 1 | $12.80 | [PCBWay](https://pcbway.com) | Custom PCB - Various colors | Most affordable option (kinda suprisingly?) |
-| Seeed XIAO RP2040 | 1 | $3.99 | [Seeed Studio](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) | Microcontroller board | Brain of the operation |
-| SK6812 LEDs | 65 | $6.40 | [LCSC](https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SKC6812RGBW-WS-B_C5380879.html?s_z=n_rgbw) | RGB addressable LEDs | $0.0985 each, forms the 8x8 grid |
-| LIS3DHTR Accelerometer | 1 | $0.60 | [LCSC](https://www.lcsc.com/product-detail/Accelerometers_STMicroelectronics-LIS3DHTR_C15134.html?s_z=n_LIS3DHTR) | 3-axis accelerometer | For motion detection |
-| Capacitor 100nF - ceramic | 20 (min size) | $0.29 | [LCSC](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.html?s_z=n_1206%2520100nf) | 1206 package | Decoupling capacitor |
-| Capacitor 10nF - electrolytic | 100 (min size) | $0.13 | [LCSC](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.html?s_z=n_10nf%25200402) | 0402 package | Decoupling capacitor |
+| Part | Quantity | Price | LCSC | Notes |
+| --- | --- | --- | --- | --- |
+| PCB (OSHPark) | 1 | $44.05 | | Purple PCB; Most expensive manufacturer but also looks gorgeous |
+| PCB (JLCPCB) | 1 | $24.82 | | Custom PCB - Green; Mid-range price |
+| PCB (PCBWay) | 1 | $12.80 | | Custom PCB - Various colors; Most affordable option (kinda suprisingly?) |
+| Seeed XIAO RP2040 | 1 | $3.99 | [Seeed Studio](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) | Brain of the operation |
+| SK6812 LEDs | 65 | $6.40 | [C5380879](https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SKC6812RGBW-WS-B_C5380879.html?s_z=n_rgbw) | RGB addressable LEDs; $0.0985 each, forms the 8x8 grid |
+| LIS3DHTR Accelerometer | 1 | $0.60 | [C15134](https://www.lcsc.com/product-detail/Accelerometers_STMicroelectronics-LIS3DHTR_C15134.html?s_z=n_LIS3DHTR) | 3-axis accelerometer; same as the one used on the spark tilt jam |
+| Capacitor 100nF - ceramic | 20 (min size) need 1 | $0.29 | [C24497](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.html?s_z=n_1206%2520100nf) | 1206 package |
+| Capacitor 10uF - ceramic | 10 (min size) need 9 | $0.34 | [C13585](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.html?s_z=n_10uf%25201206) | 1206 package |
+| Capacitor 100uF - electrolytic | 5 (min size) need 1 | $0.87 | [C1954161](https://www.lcsc.com/product-detail/Tantalum-Capacitors_Vishay-Intertech-TMCMA0J107MTRF_C1954161.html?s_z=n_100uf) | 1206 package |
+| Capacitor 470uF - polymer | 5 (min size) need 1 | $0.59 | [C41410213](https://www.lcsc.com/product-detail/Polymer-Aluminum-Capacitors_Yunxing-SPT1AM471E09TRVZC_C41410213.html?s_z=n_470uf%252010v%2520polymer) | 10V 470uF Polymer ±20% SMD,D6.3xL9mm Polymer Aluminum Capacitors ROHS |
 
-Total (with pcbway): ~$24.21
+Total (with pcbway): ~$27.38
 
 ## Schematics
 
