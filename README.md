@@ -31,11 +31,11 @@ Total (with pcbway): ~$27.38
 
 ## Build Notes
 
-Nothing yet
+Wokwi link: [https://wokwi.com/projects/429914092020158465](https://wokwi.com/projects/429914092020158465)
 
-## Pinout & Wiring Diagram
+### Pinout & Wiring Diagram
 
-### XIAO RP2040 Connections
+#### XIAO RP2040 Connections
 
 | XIAO Pin | Connected To | Description |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ Nothing yet
 | GND | LIS3DHTR GND, LEDs GND | Ground |
 | 5V | LEDs VDD | 5V Power |
 
-### LIS3DHTR Accelerometer
+#### LIS3DHTR Accelerometer
 
 | LIS3DHTR Pin | Connected To | Description |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ Nothing yet
 | INT1 | - | Interrupt (not used) |
 | INT2 | - | Interrupt (not used) |
 
-### Wiring Diagram
+#### Wiring Diagram
 
 ```mermaid
 graph TD
@@ -93,11 +93,6 @@ graph TD
     class LIS3D sensor;
     class LEDS,LED1,LED2,LED3,LED64 led;
 ```
-
-### Capacitor Placement
-
-- 100nF ceramic capacitor between VDD and GND of LIS3DHTR
-- 10nF ceramic capacitors for each SK6812 LED (placed close to power pins)
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/taciturnaxolotl/carriage/master/.github/images/line-break.svg" />
