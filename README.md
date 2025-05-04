@@ -24,9 +24,10 @@ Total (with pcbway): ~$27.38
 
 ## Schematics
 
-> coming soon but in the meantime take a look at my keyboard blueprint :yay: or I suppose if you are really impatient you can use [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Ftaciturnaxolotl%2Fpxlboard%2Fblob%2Fmain%2Fkicad%2Fpxlboard.kicad_pro)
+> If you want an iteractive version use [`kicanvas`](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Ftaciturnaxolotl%2Fpxlboard%2Fblob%2Fmain%2Fkicad%2Fpxlboard.kicad_pro)!
 
-![schematic](https://raw.githubusercontent.com/taciturnaxolotl/thyme/main/.github/images/blueprint.svg)
+![schematic](https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/schematic.svg)
+![pcb](https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/pcb.svg)
 
 ## Build Notes
 

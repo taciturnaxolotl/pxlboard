@@ -567,7 +567,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "pcb",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
