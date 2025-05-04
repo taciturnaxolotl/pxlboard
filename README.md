@@ -17,6 +17,7 @@
 | LIS3DHTR Accelerometer | 1 | $0.60 | [C15134](https://www.lcsc.com/product-detail/Accelerometers_STMicroelectronics-LIS3DHTR_C15134.html?s_z=n_LIS3DHTR) | 3-axis accelerometer; same as the one used on the spark tilt jam |
 | Capacitor 100nF - ceramic | 20 (min size) need 1 | $0.29 | [C24497](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31B104KBCNNNC_C24497.html?s_z=n_1206%2520100nf) | 1206 package |
 | Capacitor 10uF - ceramic | 10 (min size) need 9 | $0.34 | [C13585](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.html?s_z=n_10uf%25201206) | 1206 package |
+| Capacitor 10nf - ceramic | 20 (min size) need 1 | $0.23 | [C1846](https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-1206B103K500NT_C1846.html?s_z=n_10nf%25201206) | 1206 package |
 | Capacitor 100uF - electrolytic | 5 (min size) need 1 | $0.87 | [C1954161](https://www.lcsc.com/product-detail/Tantalum-Capacitors_Vishay-Intertech-TMCMA0J107MTRF_C1954161.html?s_z=n_100uf) | 1206 package |
 | Capacitor 470uF - polymer | 5 (min size) need 1 | $0.59 | [C41410213](https://www.lcsc.com/product-detail/Polymer-Aluminum-Capacitors_Yunxing-SPT1AM471E09TRVZC_C41410213.html?s_z=n_470uf%252010v%2520polymer) | 10V 470uF Polymer ±20% SMD,D6.3xL9mm Polymer Aluminum Capacitors ROHS |
 
