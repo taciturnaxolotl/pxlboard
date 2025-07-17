@@ -1,9 +1,9 @@
 # PxlBoard
 
-<img src="https://cachet.dunkirk.sh/emojis/SK6812RGBW/r" width="150" align="right">
-
-> ### More deets coming never 😊
-> **Y**et **A**nother **G**eneric **N**eopixel **G**rid (**YAGNG**) except this one is mine so don't you dare dis it :kirby-gun:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/front.png" width="41%" />
+  <img src="https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/back.png" width="41%" />
+</div>
 
 ## BOM
 
