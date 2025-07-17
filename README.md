@@ -9,7 +9,7 @@
 
 | Part | Quantity | Price | LCSC | Notes |
 | --- | --- | --- | --- | --- |
-| PCB (OSHPark) | 1 | $44.05 | | Purple PCB; Most expensive manufacturer but also looks gorgeous |
+| PCB (OSHPark) | 1 | $47.25 | | Purple PCB; Most expensive manufacturer but also looks gorgeous |
 | PCB (JLCPCB) | 1 | $24.82 | | Custom PCB - Green; Mid-range price |
 | PCB (PCBWay) | 1 | $12.80 | | Custom PCB - Various colors; Most affordable option (kinda suprisingly?) |
 | Seeed XIAO RP2040 | 1 | $3.99 | [Seeed Studio](https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html) | Brain of the operation |
