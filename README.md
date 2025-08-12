@@ -1,9 +1,6 @@
 # PxlBoard
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/front.png" width="41%" />
-  <img src="https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/back.png" width="41%" />
-</div>
+![the back of the pcb held in my hand over some black eyed susans](https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/banner.jpg)
 
 ## BOM
 
@@ -29,13 +26,14 @@ Total (with pcbway): ~$28.25
 > If you want an iteractive version use [`kicanvas`](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2Ftaciturnaxolotl%2Fpxlboard%2Fblob%2Fmain%2Fkicad%2Fpxlboard.kicad_pro)!
 
 ![schematic](https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/schematic.svg)
-![pcb](https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/pcb.svg)
 
-## Build Notes
+<div align="center">
+  <img src="https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/front.png" width="30%" />
+  <img src="https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/pcb.svg" width="38%" />
+  <img src="https://raw.githubusercontent.com/taciturnaxolotl/pxlboard/main/.github/images/back.png" width="30%" />
+</div>
 
-Wokwi link: [https://wokwi.com/projects/429914092020158465](https://wokwi.com/projects/429914092020158465)
-
-### Pinout & Wiring Diagram
+### Pinout
 
 #### XIAO RP2040 Connections
 
@@ -67,34 +65,6 @@ Wokwi link: [https://wokwi.com/projects/429914092020158465](https://wokwi.com/pr
 | SCL          | XIAO D5      | I2C Clock            |
 | INT1         | -            | Interrupt (not used) |
 | INT2         | -            | Interrupt (not used) |
-
-#### Wiring Diagram
-
-```mermaid
-graph TD
-    XIAO[XIAO RP2040] -- SDA --> LIS3D[LIS3DHTR Accelerometer]
-    XIAO -- SCL --> LIS3D
-    XIAO -- 3.3V --> LIS3D
-    XIAO -- GND --> LIS3D
-
-    XIAO -- 5V --> LEDS[SK6812 LED Grid]
-    XIAO -- GND --> LEDS
-    XIAO -- D7/GPIO1 --> LEDS
-
-    LEDS -- Data chain --> LED1[LED #1]
-    LED1 --> LED2[LED #2]
-    LED2 --> LED3[LED #3]
-    LED3 --> DOT["..."]
-    DOT --> LED64[LED #64]
-
-    classDef mcu fill:#f96,stroke:#333,stroke-width:2px;
-    classDef sensor fill:#bbf,stroke:#33f,stroke-width:1px;
-    classDef led fill:#9f9,stroke:#3a3,stroke-width:1px;
-
-    class XIAO mcu;
-    class LIS3D sensor;
-    class LEDS,LED1,LED2,LED3,LED64 led;
-```
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/taciturnaxolotl/carriage/master/.github/images/line-break.svg" />
